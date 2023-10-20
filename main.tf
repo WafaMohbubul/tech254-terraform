@@ -1,8 +1,8 @@
-# who is the provider
+# who is the provider "aws"
 provider "aws" {
 
 # location of aws
-   region = "eu-west-1"
+   region = var.aws-region #"eu-west-1"
 
 }
 
@@ -10,12 +10,11 @@ provider "aws" {
 #create a service/resource on the cloud - ec2 on AWS
 
 resource "aws_instance" "tech254-wafa-iac" {
-  ami = "ami-0943382e114f188e8"
+  ami = var.web-app_ami_id # "ami-0943382e114f188e8"
   instance_type = "t2.micro"
   tags = {
   Name = "tech254-wafa-IaC"
 
   }
-
 
 }
