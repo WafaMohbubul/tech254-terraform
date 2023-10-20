@@ -1,4 +1,4 @@
-# who is the provider "aws"
+# who is the provider
 provider "aws" {
 
 # location of aws

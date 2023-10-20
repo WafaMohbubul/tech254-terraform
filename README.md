@@ -18,7 +18,7 @@
 - Scalability: It allows for easy scaling of infrastructure
 - Collaboration: Terraform configurations can be shared and collaborated on within teams
 
-#### when is it used?
+#### When is it used?
 - Disaster recover
 - Compliance and Security
 - New infrastructure deployment

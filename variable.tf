@@ -1,4 +1,4 @@
-# variable.tf - create
+# variable.tf
 # create a var for aws region
 variable "aws-region"{
     default = "eu-west-1"
